@@ -5575,6 +5575,17 @@ react-error-overlay@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-3.0.0.tgz#c2bc8f4d91f1375b3dad6d75265d51cd5eeaf655"
 
+react-live@^1.7.1:
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/react-live/-/react-live-1.7.1.tgz#a4fc7a4d23c2596cf7d4ed10f62dca9a02915e26"
+  dependencies:
+    buble "^0.15.2"
+    core-js "^2.4.1"
+    dom-iterator "^0.3.0"
+    prismjs "^1.6.0"
+    prop-types "^15.5.8"
+    unescape "^0.2.0"
+
 react-live@^1.8.0-2:
   version "1.8.0-2"
   resolved "https://registry.yarnpkg.com/react-live/-/react-live-1.8.0-2.tgz#0207113212fb5cc4ebb33080219c2feb29ea3398"

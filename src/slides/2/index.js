@@ -1,13 +1,16 @@
 import React from 'react'
-import { Heading, Slide, Text } from 'spectacle'
+import { Slide, Markdown } from 'spectacle'
+
+const content = `
+# Why React?
+
+* Declarative
+* Component-Based
+* Learn Once, Write Anywhere
+`
 
 export default (
-  <Slide transition={['zoom']} bgColor="primary">
-    <Heading size={1} fit caps lineHeight={1} textColor="secondary">
-      Spectacle Boilerplate
-    </Heading>
-    <Text margin="10px 0 0" textColor="tertiary" size={1} fit bold>
-      open the presentation/index.js file to get started
-    </Text>
+  <Slide>
+    <Markdown>{content}</Markdown>
   </Slide>
 )

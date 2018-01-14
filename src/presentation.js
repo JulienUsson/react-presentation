@@ -3,14 +3,18 @@ import createTheme from 'spectacle/lib/themes/default'
 import 'normalize.css'
 import { Deck } from 'spectacle'
 
-const slidesImports = [import('./slides/1'), import('./slides/2')]
+const slidesImports = [
+  import('./slides/1'),
+  import('./slides/2'),
+  import('./slides/3'),
+]
 
 const theme = createTheme(
   {
     primary: '#EFEFE4',
-    secondary: '#F06B46',
-    tertiary: '#7EA4A8',
-    quartenary: '#1A252C',
+    secondary: '#1A252C',
+    tertiary: '#F06B46',
+    quartenary: '#7EA4A8',
   },
   {
     primary: 'Montserrat',

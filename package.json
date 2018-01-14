@@ -5,11 +5,12 @@
   "dependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
+    "react-live": "^1.7.1",
     "spectacle-scripts": "2.0.0"
   },
   "devDependencies": {
-    "eslint": "^4.14.0",
     "babel-eslint": "^8.0.2",
+    "eslint": "^4.14.0",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-jest": "^21.5.0",
     "eslint-plugin-prettier": "^2.4.0",
