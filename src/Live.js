@@ -1,23 +1,22 @@
 import React from 'react'
 import { LiveProvider, LiveEditor, LiveError, LivePreview } from 'react-live'
 
-export default ({ code }) => (
+export default ({ code, inline }) => (
   <LiveProvider
     code={code}
-    noInline
+    noInline={!inline}
     style={{
-      display: 'flex',
-      flexDirection: 'row',
-      justifyContent: 'space-between',
       marginTop: 30,
     }}
   >
-    <div style={{ flex: 2 }}>
-      <LiveEditor style={{ lineHeight: 1.3 }} />
-    </div>
+    <LiveEditor
+      style={{
+        lineHeight: 1.2,
+        fontSize: 14,
+      }}
+    />
     <div
       style={{
-        flex: 1,
         textAlign: 'left',
         padding: 10,
       }}
