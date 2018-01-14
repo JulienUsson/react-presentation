@@ -9,6 +9,7 @@ const slidesImports = [
   import('./slides/3'),
   import('./slides/4'),
   import('./slides/5'),
+  import('./slides/6'),
 ]
 
 const theme = createTheme(

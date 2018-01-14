@@ -7,18 +7,19 @@ export default ({ code }) => (
     noInline
     style={{
       display: 'flex',
-      flexDirection: 'column',
+      flexDirection: 'row',
       justifyContent: 'space-between',
       marginTop: 30,
     }}
   >
-    <div>
-      <LiveEditor style={{ lineHeight: 1.5 }} />
+    <div style={{ flex: 2 }}>
+      <LiveEditor style={{ lineHeight: 1.3 }} />
     </div>
     <div
       style={{
+        flex: 1,
         textAlign: 'left',
-        marginTop: 20,
+        padding: 10,
       }}
     >
       <LivePreview />
