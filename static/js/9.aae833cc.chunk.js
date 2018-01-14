@@ -1,0 +1,2 @@
+webpackJsonp([9],{948:function(e,n,t){"use strict";Object.defineProperty(n,"__esModule",{value:!0});var a=t(0),l=t.n(a),i=t(412),c=(t.n(i),t(953)),o=t.n(c),r="\n![React is lego]("+o.a+")\n";n.default=l.a.createElement(i.Slide,null,l.a.createElement(i.Heading,{fit:!0},"What is React ?"),l.a.createElement(i.Markdown,null,r))},953:function(e,n,t){e.exports=t.p+"static/media/building-blocks.e8be7300.png"}});
+//# sourceMappingURL=9.aae833cc.chunk.js.map

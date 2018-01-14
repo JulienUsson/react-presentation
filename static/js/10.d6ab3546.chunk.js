@@ -1,0 +1,2 @@
+webpackJsonp([10],{938:function(e,n,a){"use strict";Object.defineProperty(n,"__esModule",{value:!0});var t=a(0),l=a.n(t),r=a(412);a.n(r);n.default=l.a.createElement(r.Slide,null,l.a.createElement(r.Markdown,null,"\n# Why React ?\n\n* Declarative\n* Component-Based\n* Learn Once, Write Anywhere\n"))}});
+//# sourceMappingURL=10.d6ab3546.chunk.js.map

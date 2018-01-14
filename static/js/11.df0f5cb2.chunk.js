@@ -1,0 +1,2 @@
+webpackJsonp([11],{937:function(e,t,a){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var n=a(0),r=a.n(n),i=a(412);a.n(i);t.default=r.a.createElement(i.Slide,null,r.a.createElement(i.Heading,{fit:!0,caps:!0},"React"),r.a.createElement(i.Text,{fit:!0,bold:!0},"A JavaScript library for building user interfaces"))}});
+//# sourceMappingURL=11.df0f5cb2.chunk.js.map
