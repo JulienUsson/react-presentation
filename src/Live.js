@@ -12,7 +12,7 @@ export default ({ code, inline }) => (
     <LiveEditor
       style={{
         lineHeight: 1.2,
-        fontSize: 14,
+        fontSize: 20,
       }}
     />
     <div
