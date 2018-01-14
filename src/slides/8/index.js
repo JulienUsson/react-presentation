@@ -26,7 +26,7 @@ class Form extends React.Component {
 
 export default (
   <Slide>
-    <Heading fit>Component communication</Heading>
+    <Heading fit>Handling Events</Heading>
     <Live code={code} inline />
   </Slide>
 )
