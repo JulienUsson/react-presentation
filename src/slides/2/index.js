@@ -2,7 +2,7 @@ import React from 'react'
 import { Slide, Markdown } from 'spectacle'
 
 const content = `
-# Why React?
+# Why React ?
 
 * Declarative
 * Component-Based
